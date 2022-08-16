@@ -1,12 +1,12 @@
 {
   "name": "cordova-plugin-getuisdk",
-  "version": "1.1.14",
+  "version": "1.1.15",
   "description": "cordova plugin for getui sdk push",
   "scripts": {
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GetuiLaboratory/cordova-plugin-getuisdk.git"
+    "url": "git+https://github.com/vhly/cordova-plugin-getuisdk.git"
   },
   "keywords": [
     "getui",
@@ -19,7 +19,7 @@
   "author": "getui",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GetuiLaboratory/cordova-plugin-getuisdk/issues"
+    "url": "https://github.com/vhly/cordova-plugin-getuisdk/issues"
   },
-  "homepage": "https://github.com/GetuiLaboratory/cordova-plugin-getuisdk#readme"
+  "homepage": "https://github.com/vhly/cordova-plugin-getuisdk#readme"
 }

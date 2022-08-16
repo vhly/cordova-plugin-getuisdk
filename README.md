@@ -41,7 +41,7 @@ cordova platform add android@6.4.0
 * 添加个推推送
 ```
 // plugman 集成方式，若已使用 cordova 命令集成则可略过。
-plugman install --platform android --project android平台目录 --plugin https://github.com/GetuiLaboratory/cordova-plugin-getuisdk --plugins_dir 你的插件目录 --variable PUSH_APPID=你的appid --variable PUSH_APPKEY=你的appkey --variable PUSH_APPSECRET=你的appsecret
+plugman install --platform android --project android平台目录 --plugin https://github.com/vhly/cordova-plugin-getuisdk --plugins_dir 你的插件目录 --variable PUSH_APPID=你的appid --variable PUSH_APPKEY=你的appkey --variable PUSH_APPSECRET=你的appsecret
 ```
 * 安装之后需要重新构建工程
 ```
@@ -113,7 +113,7 @@ cordova platform add ios
 * 添加个推推送
 ```
 // plugman 集成方式，若已使用 cordova 命令集成则可略过此步骤。
-plugman install --platform ios --project ios平台目录 --plugin https://github.com/GetuiLaboratory/cordova-plugin-getuisdk --plugins_dir 你的插件目录
+plugman install --platform ios --project ios平台目录 --plugin https://github.com/vhly/cordova-plugin-getuisdk --plugins_dir 你的插件目录
 ```
 * 安装之后需要重新构建工程
 ```
@@ -250,7 +250,7 @@ push.on('error', onError);
 
 ## 参考文档
 
-[iOS Demo 链接](https://github.com/GetuiLaboratory/cordova-plugin-getuisdk/tree/master/ios/demo/www)  
+[iOS Demo 链接](https://github.com/vhly/cordova-plugin-getuisdk/tree/master/ios/demo/www)  
 
 [cordova常用命令](http://my.oschina.net/jack088/blog/390876?fromerr=f8h2gkFq)  
 
